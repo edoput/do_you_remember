@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Do you remember?",
+  "version": "1.0",
+
+  "description": "Fine grained control over your history",
+
+  "omnibox": {
+      "keyword": "search"
+  },
+  "background": {
+      "scripts": ["yesterday_omnibox.js"]
+  },
+  "permissions": [
+      "history"
+  ]
+}
